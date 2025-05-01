@@ -1,4 +1,4 @@
-# german_translator
+# German_Translator
 
 
 # Tech stack used
