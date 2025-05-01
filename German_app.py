@@ -97,7 +97,7 @@ def question(response):
             jaccard = jaccard_similarity(german_phrase[st.session_state.x], transcribed_text)
 
         
-            if jaccard.item() > 0.1:
+            if jaccard.item() > 0.65:
                 st.success("**Correct!**")
                 st.write(f":green[**Your Accuracy is : {round(jaccard.item()*100,2)}%**]")
                 submit = st.button("**Proceed to the next question**")
