@@ -1,0 +1,5 @@
+sentence_transformers
+speech_recognition
+openai
+streamlit
+pyttsx3
